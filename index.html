@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">Code Quiz</div>
+      <h2>Let's Test Your Knowledge! Press Start to Begin!</h2>
+      <button class="button">Start</button>
+    </header>
+
+    <main>
+      <section>
+        <div class="content-box">
+          <div class="text-content" id="questions">Question</div>  
+          <ul class="text-content" id="answers"></ul> 
+        </div>
+    </section>
+    <section> 
+        <div class="timer-box">
+        <div class = "timer-text">
+        <div class = "timer-countdown">60</div>
+        <h3>seconds remaining</h3>
+        </div>
+      </section>
+      <section>
+        <div class="score-box">
+        <div class="button">Submit</div>
+        <div class="correct"><label for="score">Correct</label><input type="text" id="score"></div>
+        <div class="wrong"><label for= "wrong">Wrong</label><input type="text" id="wrong"></div>
+      </section>
+    </main>
+    <script src="./scipt.js"></script>
+  </body>
+</html>

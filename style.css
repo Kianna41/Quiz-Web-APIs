@@ -1,0 +1,124 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: rgb(78, 75, 75);
+  color: white;
+  border-bottom: 30px #879274;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section {
+  flex: 0 auto;
+  padding: 8px;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.button {
+  background-color: navy;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 20px 50px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  padding: 20px 50px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.content-box {
+  background-color: rgb(78, 75, 75);
+  border: 8px solid navy;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  padding: 20px;
+  margin: auto;
+  width: 700px;
+  height: 300px;
+}
+
+.text-content {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.timer-box {
+  height: 200px;
+  padding: 20px;
+  margin: 0;
+  border-radius: 8px;
+  border: 8px solid navy;
+  background-color: rgb(78, 75, 75);
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.timer-text {
+  padding: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.timer-countdown {
+  font-size: 80px;
+  color: white;
+}
+
+.score-box {
+  height: 200px;
+  padding: 20px;
+  margin: 0;
+  border-radius: 8px;
+  border: 8px solid navy;
+  background-color: rgb(78, 75, 75);
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+  text-align: center;
+  margin-top: 50px;
+}
+.correct {
+  padding: 20px;
+  font-size: 10px;
+  color: white;
+}
+.wrong {
+  padding: 20px;
+  font-size: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 1183px) {
+  main {
+    flex-direction: column;
+  }
+}
